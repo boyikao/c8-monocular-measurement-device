@@ -1,0 +1,27 @@
+# Keil MDK build outputs and local IDE state
+**/Objects/
+**/Listings/
+**/RTE/
+**/*.axf
+**/*.bin
+**/*.hex
+**/*.o
+**/*.d
+**/*.crf
+**/*.dep
+**/*.map
+**/*.lst
+**/*.lnp
+**/*.htm
+**/*.build_log.htm
+**/*.uvguix.*
+**/DebugConfig/
+
+# OS and editor metadata
+Thumbs.db
+.DS_Store
+
+# Non-source local material and large release artifacts
+报销/
+*.zip
+*.mp4
