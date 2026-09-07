@@ -11,6 +11,14 @@
 - `基于c8单目视觉的目标物测量装置设计报告(1).docx`：设计报告。
 - `39-08-本-C.pdf`：竞赛题目文件。
 
+## 演示视频
+
+点击下方播放器观看演示：
+
+<video controls preload="metadata" width="720" src="https://github.com/boyikao/c8-monocular-measurement-device/raw/refs/heads/main/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.mp4"></video>
+
+如果当前 GitHub 页面不显示播放器，可直接打开[视频文件](https://github.com/boyikao/c8-monocular-measurement-device/raw/refs/heads/main/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91.mp4)。
+
 ## 功能概述
 
 视觉端在灰度 VGA 图像中定位白色测量框和黑色目标物，通过测量框像素宽度估算距离，并根据目标物相对测量框的尺寸计算实际大小。测得距离以 5 字节帧 `0xFF + 百/十/个位 + 0xFE` 经 UART3（9600 bps）发送。
@@ -23,4 +31,6 @@
 
 ## 开源说明
 
-本仓库保留项目原创代码、工程配置和技术资料；不提交构建产物、本地 Keil 配置、视频、压缩包及报销材料。第三方 STM32 标准外设库和启动文件保留其原有版权与许可。
+本仓库保留项目原创代码、工程配置、技术资料和演示视频；不提交构建产物、本地 Keil 配置、压缩包及报销材料。第三方 STM32 标准外设库和启动文件保留其原有版权与许可。
+
+PDF 题目与设计报告作为 GitHub Release 附件发布，便于下载和归档。
